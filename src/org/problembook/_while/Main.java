@@ -8,5 +8,9 @@ public class Main {
         System.out.println("while10: " + While10.fun(2));
         System.out.println("while10: " + While10.fun(8));
 
+        While14.fun(1.1);
+        While14.fun(1.51);
+        While14.fun(1.9);
+
     }
 }
