@@ -6,15 +6,10 @@ public class While22 {
             throw new IllegalArgumentException("A > 1");
         }
         int k = 2;
-        boolean res = true;
-        while (k < a) {
-            if (a % k == 0) {
-                res = false;
-                break;
-            }
+        while (!(k == a || a % k == 0)) {
             k++;
         }
 
-        return res;
+        return k==a;
     }
 }
