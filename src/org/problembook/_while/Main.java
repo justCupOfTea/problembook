@@ -12,5 +12,9 @@ public class Main {
         While14.fun(1.51);
         While14.fun(1.9);
 
+        System.out.println("while22: " + While22.fun(3));
+        System.out.println("while22: " + While22.fun(4));
+        System.out.println("while22: " + While22.fun(5));
+        System.out.println("while22: " + While22.fun(71));
     }
 }
