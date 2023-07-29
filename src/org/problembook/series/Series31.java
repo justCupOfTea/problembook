@@ -13,12 +13,18 @@ public class Series31 {
         while (k > 0) {
             int z = n;
             boolean findTwo = false;
-            while (z > 0){
+            while (z > 0 && !findTwo){
                 double a = sc.nextDouble();
-                if (!findTwo && a == 2.0) {
-                    sum++;
+                if (a == 2.0) {
                     findTwo = true;
                 }
+                z --;
+            }
+            if(findTwo){
+                sum++;
+            }
+            while(z>0){
+                double a = sc.nextDouble();
                 z --;
             }
            k--;
