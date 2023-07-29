@@ -7,12 +7,13 @@ public class Array70 {
         if (n < 1) {
             throw new IllegalArgumentException("N > 0");
         }
+
         int middle = n / 2;
         for (int i = 0; i < middle; i++) {
             double tmp = a[i];
             a[i] = a[i + middle];
             a[i + middle] = tmp;
         }
-        System.out.println("Array68: " + Arrays.toString(a));
+        System.out.println("Array70: " + Arrays.toString(a));
     }
 }
