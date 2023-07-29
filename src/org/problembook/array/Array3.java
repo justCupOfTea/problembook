@@ -15,6 +15,6 @@ public class Array3 {
             res[i] = res[i - 1] + d;
             i++;
         }
-        System.out.println(Arrays.toString(res));
+        System.out.println("Array3: " + Arrays.toString(res));
     }
 }
