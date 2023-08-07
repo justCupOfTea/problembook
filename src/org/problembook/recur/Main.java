@@ -6,5 +6,6 @@ public class Main {
         Recur2.print(9);
         Recur3.print(5, 2);
         Recur3.print(-5, 2);
+        Recur4.print();
     }
 }
