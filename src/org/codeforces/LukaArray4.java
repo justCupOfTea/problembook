@@ -16,7 +16,7 @@ public class LukaArray4 {
         if (!(l >= 1 && l <= 50_000)) {
             throw new IllegalArgumentException("Error array length");
         }
-        if (!(k >= 1 && k <= 10_000)) {
+        if (!(k >= 1 && k <= 100_000)) {
             throw new IllegalArgumentException("Error k");
         }
         long points = 0;
