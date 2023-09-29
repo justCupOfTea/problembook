@@ -26,7 +26,7 @@ public class Luka3 {
 
     public static long fun2(long l, long k, long i) {
         long m = i * k;
-        if (m == l || m / l < (m + i) / l) {
+        if (m == l || (m + i) == l || m / l < (m + i) / l) {
             return i;
         }
         return fun2(l, k, i + 1);
