@@ -25,19 +25,9 @@ public class Luka3 {
 
 
     public static long fun2(long l, long k, long n) {
-//        if (n == 15) {
-//            throw new RuntimeException("");
-//        }
-        for (int i = 0; i <= n; i++) {
-            long m = k * n + i;
-//            System.out.println("m: " + m);
-//            System.out.println("n: " + n);
-//            System.out.println("m / l = " + m / l);
-//            System.out.println("m % l = " + m % l);
-            if (m / l >= 1 && m % l == 0) {
-                return n;
-            }
-
+        long tmp = n * k;
+        if (tmp / l < (tmp + n) / l) {
+            return n;
         }
         return fun2(l, k, n + 1);
     }
