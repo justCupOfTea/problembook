@@ -7,10 +7,13 @@ public class Recur6 {
         System.out.printf("Recur6: fun(%s, %s) = %s \n", 6, 3, fun(6, 3));
         System.out.printf("Recur6: fun(%s, %s) = %s \n", 6, 4, fun(6, 4));
         System.out.printf("Recur6: fun(%s, %s) = %s \n", 6, 5, fun(6, 5));
-        System.out.printf("Recur6: fun(%s, %s) = %s \n", 6, 6, fun(6, 6));
+        long l = System.currentTimeMillis();
+        System.out.printf("Recur7: fun(%s, %s) = %s \n", 100, 6, fun(100, 6));
+        long time = (System.currentTimeMillis() - l);
+        System.out.println("time : " + time);
     }
 
-    private static int fun(int n, int k) {
+    private static long fun(int n, int k) {
         if (n <= 0) {
             throw new IllegalArgumentException("N натуральное");
         }

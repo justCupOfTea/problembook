@@ -10,5 +10,6 @@ public class Main {
         Recur5.print();
         Recur9.print();
         Recur6.print();
+        Recur7.print();
     }
 }
