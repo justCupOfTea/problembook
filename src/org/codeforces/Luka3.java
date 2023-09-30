@@ -20,16 +20,18 @@ public class Luka3 {
             throw new IllegalArgumentException("Error k");
         }
 
-        return fun2(l, k, 1);
+        return fun2(l, k);
     }
 
 
-    public static long fun2(long l, long k, long i) {
+    public static long fun2(long l, long k) {
+        int i = 1;
         long m = i * k;
-        if (m == l || (m + i) == l || m / l < (m + i) / l) {
-            return i;
+        while (!(m % l == 0 || m / l < (m + i) / l)) {
+            i++;
+            m = i * k;
         }
-        return fun2(l, k, i + 1);
+        return i;
     }
 
 }
