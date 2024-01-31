@@ -14,3 +14,4 @@ elixir ./for/_for1.exs
 * [for4](./for/_for4.exs)
 * [for5](./for/_for5.exs)
 * [for6](./for/_for6.exs)
+* [for7](./for/_for7.exs)
