@@ -8,12 +8,13 @@ elixir ./for/_for1.exs
 ```
 
 ### Группа FOR: 
-* [for1](./for/_for1.exs)
-* [for2](./for/_for2.exs)
-* [for3](./for/_for3.exs)
-* [for4](./for/_for4.exs)
-* [for5](./for/_for5.exs)
-* [for6](./for/_for6.exs)
-* [for7](./for/_for7.exs)
-* [for8](./for/_for8.exs)
-* [for9](./for/_for9.exs)
+* [for1](./for/_for01.exs)
+* [for2](./for/_for02.exs)
+* [for3](./for/_for03.exs)
+* [for4](./for/_for04.exs)
+* [for5](./for/_for05.exs)
+* [for6](./for/_for06.exs)
+* [for7](./for/_for07.exs)
+* [for8](./for/_for08.exs)
+* [for9](./for/_for09.exs)
+* [for10](./for/_for10.exs)
