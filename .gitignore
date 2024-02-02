@@ -1,2 +1,20 @@
+out/
+/**/out/
+
 .idea
-*.iml
+.gradle
+gradle
+gradle.properties
+gradlew
+gradlew.bat
+
+build/
+/**/build
+/**/*.log
+*.log
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
