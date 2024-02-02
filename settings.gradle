@@ -1,0 +1,21 @@
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+buildCache {
+    local {
+        directory = "./.gradle/build-cache"
+    }
+}
+
+
+rootProject.name = 'problembook'
+include 'lang-elixir',
+            'lang-elixir:problembook',
+        'lang-java',
+            'lang-java:codeforces',
+            'lang-java:problembook',
+            'lang-java:algorithm'
+

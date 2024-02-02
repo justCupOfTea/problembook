@@ -1,0 +1,21 @@
+plugins {
+    id 'base'
+}
+
+subprojects {
+    apply plugin: 'java'
+    group = 'org.justcupoftea.education'
+    version = '1.0'
+
+    task createSourceDirecotries {
+        group 'develop'
+        doFirst {
+            logger.quiet("init project '$project.name'")
+            File f = file("./src/main/java/${project.group.replace("\\.", "/")}/${project.name}")
+            if (!f.exists()) {
+                logger.quiet("create dir: '${f.toPath()}'")
+                f.mkdirs()
+            }
+        }
+    }
+}

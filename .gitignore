@@ -1,7 +1,17 @@
 out/
 /**/out/
-.idea
 
+.idea
+.gradle
+gradle
+gradle.properties
+gradlew
+gradlew.bat
+
+build/
+/**/build
+/**/*.log
+*.log
 
 ### VS Code ###
 .vscode/
