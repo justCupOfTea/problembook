@@ -19,5 +19,5 @@ elixir ./for/_for1.exs
 * [for9](./for/_for09.exs)
 * [for10](./for/_for10.exs)
 * [for11](./for/_for11.exs)
-* [for10](./for/_for11.exs)
-* [for10](./for/_for11.exs)
+* [for12](./for/_for12.exs)
+
