@@ -27,5 +27,6 @@ elixir ./for/_for1.exs
 ### Группа WHILE:
 * [while1](./while/_while1.exs)
 * [while4](./while/_while4.exs)
+* [while7](./while/_while7.exs)
 * [while22](./while/_while22.exs)
 * [while23](./while/_while23.exs)
