@@ -24,3 +24,5 @@ elixir ./for/_for1.exs
 * [for14](./for/_for14.exs)
 * [for15](./for/_for15.exs)
 
+### Группа WHILE:
+8 [while22](./while/_while22.exs)
