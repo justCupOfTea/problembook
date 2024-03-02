@@ -28,5 +28,10 @@ elixir ./for/_for1.exs
 * [while1](./while/_while1.exs)
 * [while4](./while/_while4.exs)
 * [while7](./while/_while7.exs)
+* [while11](./while/_while11.exs)
 * [while22](./while/_while22.exs)
 * [while23](./while/_while23.exs)
+
+### ГРуппа Series:
+* [while02](./series/series02.exs)
+* [while08](./series/series08.exs)
